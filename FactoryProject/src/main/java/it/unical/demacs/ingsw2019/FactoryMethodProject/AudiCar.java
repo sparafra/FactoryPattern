@@ -1,4 +1,4 @@
-package it.unical.demacs.ingsw2019.FactoryProject;
+package it.unical.demacs.ingsw2019.FactoryMethodProject;
 
 import java.awt.Graphics2D;
 import java.awt.Image;

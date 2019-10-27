@@ -1,4 +1,4 @@
-package it.unical.demacs.ingsw2019.FactoryProject;
+package it.unical.demacs.ingsw2019.FactoryMethodProject;
 
 import java.awt.Graphics2D;
 import java.awt.Image;
@@ -7,13 +7,13 @@ import java.awt.image.BufferedImage;
 
 import javax.swing.ImageIcon;
 
-public class AudiCar implements Car{
+public class MercedesCar implements Car{
 
 	String Nome;
 	Image img;
 	
-	public AudiCar(String Nome, Image I) {this.Nome = Nome; this.img = I;}
-	
+	public MercedesCar(String Nome, Image I) {this.Nome = Nome; this.img = I;}
+
 	public String getNome() {
 		return Nome;
 	}
